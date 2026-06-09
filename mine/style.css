@@ -1,0 +1,36 @@
+#myButton {
+    background-color: rgb(42, 84, 236);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#myButton:hover {
+    background-color: rgb(46, 122, 229);
+
+}
+
+.swiper {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.swiper-wrapper {
+    height: 200px;
+    
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: rgb(193, 179, 179);
+    border-radius: 10px;;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
